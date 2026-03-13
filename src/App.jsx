@@ -1,19 +1,22 @@
-import React from 'react';
-// import { useState } from 'react'
-import './App.css'
-// import Button from './components/Button/Button';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
+import React from "react";
+
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import Section from "./components/Section/Section";
 
 function App() {
-   return (
+  return (
     <>
       <Navbar />
       <Hero />
+
+      <Section
+        title="Top Albums"
+        endpoint="https://qtify-backend.labs.crio.do/albums/top"
+      />
     </>
   );
-
- 
 }
 
 export default App;

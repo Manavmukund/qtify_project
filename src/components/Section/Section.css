@@ -1,0 +1,24 @@
+.section {
+  padding: 40px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.collapseBtn {
+  background: none;
+  border: none;
+  color: #34c94b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
