@@ -1,0 +1,12 @@
+.MuiTabs-indicator {
+  background-color: #34c94b;
+}
+
+.MuiTab-root {
+  color: white;
+  font-weight: 600;
+}
+
+.Mui-selected {
+  color: #34c94b !important;
+}
