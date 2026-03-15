@@ -7,7 +7,7 @@ const Button = ({ text = 'Give Feedback', onClick }) => {
     <button className={styles.button} onClick={onClick}>
       {text}
     </button>
-  );
+  ); 
 };
 
 export default Button;
